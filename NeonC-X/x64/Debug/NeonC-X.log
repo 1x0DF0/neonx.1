@@ -1,0 +1,12 @@
+﻿  HellsGate.c
+  main.c
+  Generating Code...
+main.obj : error LNK2005: RtlGetThreadEnvironmentBlock already defined in HellsGate.obj
+HellsGate.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+main.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+HellsGate.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+main.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+main.obj : error LNK2019: unresolved external symbol __acrt_iob_func referenced in function printf
+main.obj : error LNK2019: unresolved external symbol __stdio_common_vfprintf referenced in function _vfprintf_l
+main.obj : error LNK2019: unresolved external symbol _RTC_CheckStackVars referenced in function printf
+C:\Users\leoga\OneDrive\Desktop\NeonC-X\x64\Debug\NeonC-X.exe : fatal error LNK1120: 5 unresolved externals
